@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activitys.shayary">
+
+    <LinearLayout
+        android:layout_weight="2.1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/shayary_expand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/expand"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/shayary_title"
+            android:text="hello"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/shayary_reload"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/reload"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shayary_linear"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/shayary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textSize="@dimen/_20sdp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="#008000">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/copy1"
+            android:id="@+id/shayary_copy"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/previous"
+            android:id="@+id/shayary_prev"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/pencil2"
+            android:id="@+id/shayary_pencil"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/next"
+            android:id="@+id/shayary_next"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/share"
+            android:id="@+id/shayary_share"/>
+    </LinearLayout>
+
+</LinearLayout>
